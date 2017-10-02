@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DD43791F823BA30096760F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DD43781F823BA30096760F /* AppDelegate.swift */; };
+		01DD437B1F823BA30096760F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DD437A1F823BA30096760F /* ViewController.swift */; };
+		01DD437D1F823BA30096760F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DD437C1F823BA30096760F /* Assets.xcassets */; };
+		01DD43801F823BA30096760F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DD437E1F823BA30096760F /* Main.storyboard */; };
+		01DD438C1F823BA30096760F /* hoots_timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DD438B1F823BA30096760F /* hoots_timerTests.swift */; };
+		01DD43971F823BA30096760F /* hoots_timerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DD43961F823BA30096760F /* hoots_timerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01DD43881F823BA30096760F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01DD436D1F823BA30096760F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01DD43741F823BA30096760F;
+			remoteInfo = "hoots-timer";
+		};
+		01DD43931F823BA30096760F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01DD436D1F823BA30096760F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01DD43741F823BA30096760F;
+			remoteInfo = "hoots-timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DD43751F823BA30096760F /* hoots-timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hoots-timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DD43781F823BA30096760F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01DD437A1F823BA30096760F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01DD437C1F823BA30096760F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01DD437F1F823BA30096760F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01DD43811F823BA30096760F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01DD43821F823BA30096760F /* hoots_timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hoots_timer.entitlements; sourceTree = "<group>"; };
+		01DD43871F823BA30096760F /* hoots-timerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hoots-timerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DD438B1F823BA30096760F /* hoots_timerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoots_timerTests.swift; sourceTree = "<group>"; };
+		01DD438D1F823BA30096760F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01DD43921F823BA30096760F /* hoots-timerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hoots-timerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DD43961F823BA30096760F /* hoots_timerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoots_timerUITests.swift; sourceTree = "<group>"; };
+		01DD43981F823BA30096760F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01DD43721F823BA30096760F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DD43841F823BA30096760F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DD438F1F823BA30096760F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01DD436C1F823BA30096760F = {
+			isa = PBXGroup;
+			children = (
+				01DD43771F823BA30096760F /* hoots-timer */,
+				01DD438A1F823BA30096760F /* hoots-timerTests */,
+				01DD43951F823BA30096760F /* hoots-timerUITests */,
+				01DD43761F823BA30096760F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01DD43761F823BA30096760F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01DD43751F823BA30096760F /* hoots-timer.app */,
+				01DD43871F823BA30096760F /* hoots-timerTests.xctest */,
+				01DD43921F823BA30096760F /* hoots-timerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01DD43771F823BA30096760F /* hoots-timer */ = {
+			isa = PBXGroup;
+			children = (
+				01DD43781F823BA30096760F /* AppDelegate.swift */,
+				01DD437A1F823BA30096760F /* ViewController.swift */,
+				01DD437C1F823BA30096760F /* Assets.xcassets */,
+				01DD437E1F823BA30096760F /* Main.storyboard */,
+				01DD43811F823BA30096760F /* Info.plist */,
+				01DD43821F823BA30096760F /* hoots_timer.entitlements */,
+			);
+			path = "hoots-timer";
+			sourceTree = "<group>";
+		};
+		01DD438A1F823BA30096760F /* hoots-timerTests */ = {
+			isa = PBXGroup;
+			children = (
+				01DD438B1F823BA30096760F /* hoots_timerTests.swift */,
+				01DD438D1F823BA30096760F /* Info.plist */,
+			);
+			path = "hoots-timerTests";
+			sourceTree = "<group>";
+		};
+		01DD43951F823BA30096760F /* hoots-timerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01DD43961F823BA30096760F /* hoots_timerUITests.swift */,
+				01DD43981F823BA30096760F /* Info.plist */,
+			);
+			path = "hoots-timerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01DD43741F823BA30096760F /* hoots-timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DD439B1F823BA30096760F /* Build configuration list for PBXNativeTarget "hoots-timer" */;
+			buildPhases = (
+				01DD43711F823BA30096760F /* Sources */,
+				01DD43721F823BA30096760F /* Frameworks */,
+				01DD43731F823BA30096760F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hoots-timer";
+			productName = "hoots-timer";
+			productReference = 01DD43751F823BA30096760F /* hoots-timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01DD43861F823BA30096760F /* hoots-timerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DD439E1F823BA30096760F /* Build configuration list for PBXNativeTarget "hoots-timerTests" */;
+			buildPhases = (
+				01DD43831F823BA30096760F /* Sources */,
+				01DD43841F823BA30096760F /* Frameworks */,
+				01DD43851F823BA30096760F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01DD43891F823BA30096760F /* PBXTargetDependency */,
+			);
+			name = "hoots-timerTests";
+			productName = "hoots-timerTests";
+			productReference = 01DD43871F823BA30096760F /* hoots-timerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01DD43911F823BA30096760F /* hoots-timerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DD43A11F823BA30096760F /* Build configuration list for PBXNativeTarget "hoots-timerUITests" */;
+			buildPhases = (
+				01DD438E1F823BA30096760F /* Sources */,
+				01DD438F1F823BA30096760F /* Frameworks */,
+				01DD43901F823BA30096760F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01DD43941F823BA30096760F /* PBXTargetDependency */,
+			);
+			name = "hoots-timerUITests";
+			productName = "hoots-timerUITests";
+			productReference = 01DD43921F823BA30096760F /* hoots-timerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01DD436D1F823BA30096760F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = gloryhammer;
+				TargetAttributes = {
+					01DD43741F823BA30096760F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					01DD43861F823BA30096760F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01DD43741F823BA30096760F;
+					};
+					01DD43911F823BA30096760F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01DD43741F823BA30096760F;
+					};
+				};
+			};
+			buildConfigurationList = 01DD43701F823BA30096760F /* Build configuration list for PBXProject "hoots-timer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01DD436C1F823BA30096760F;
+			productRefGroup = 01DD43761F823BA30096760F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01DD43741F823BA30096760F /* hoots-timer */,
+				01DD43861F823BA30096760F /* hoots-timerTests */,
+				01DD43911F823BA30096760F /* hoots-timerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01DD43731F823BA30096760F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DD437D1F823BA30096760F /* Assets.xcassets in Resources */,
+				01DD43801F823BA30096760F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DD43851F823BA30096760F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DD43901F823BA30096760F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01DD43711F823BA30096760F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DD437B1F823BA30096760F /* ViewController.swift in Sources */,
+				01DD43791F823BA30096760F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DD43831F823BA30096760F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DD438C1F823BA30096760F /* hoots_timerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DD438E1F823BA30096760F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DD43971F823BA30096760F /* hoots_timerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01DD43891F823BA30096760F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01DD43741F823BA30096760F /* hoots-timer */;
+			targetProxy = 01DD43881F823BA30096760F /* PBXContainerItemProxy */;
+		};
+		01DD43941F823BA30096760F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01DD43741F823BA30096760F /* hoots-timer */;
+			targetProxy = 01DD43931F823BA30096760F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01DD437E1F823BA30096760F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DD437F1F823BA30096760F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01DD43991F823BA30096760F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01DD439A1F823BA30096760F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		01DD439C1F823BA30096760F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "hoots-timer/hoots_timer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hoots-timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gloryhammer.hoots-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		01DD439D1F823BA30096760F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "hoots-timer/hoots_timer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hoots-timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gloryhammer.hoots-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		01DD439F1F823BA30096760F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hoots-timerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gloryhammer.hoots-timerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hoots-timer.app/Contents/MacOS/hoots-timer";
+			};
+			name = Debug;
+		};
+		01DD43A01F823BA30096760F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hoots-timerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gloryhammer.hoots-timerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hoots-timer.app/Contents/MacOS/hoots-timer";
+			};
+			name = Release;
+		};
+		01DD43A21F823BA30096760F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hoots-timerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gloryhammer.hoots-timerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "hoots-timer";
+			};
+			name = Debug;
+		};
+		01DD43A31F823BA30096760F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hoots-timerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gloryhammer.hoots-timerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "hoots-timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01DD43701F823BA30096760F /* Build configuration list for PBXProject "hoots-timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DD43991F823BA30096760F /* Debug */,
+				01DD439A1F823BA30096760F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DD439B1F823BA30096760F /* Build configuration list for PBXNativeTarget "hoots-timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DD439C1F823BA30096760F /* Debug */,
+				01DD439D1F823BA30096760F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DD439E1F823BA30096760F /* Build configuration list for PBXNativeTarget "hoots-timerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DD439F1F823BA30096760F /* Debug */,
+				01DD43A01F823BA30096760F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DD43A11F823BA30096760F /* Build configuration list for PBXNativeTarget "hoots-timerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DD43A21F823BA30096760F /* Debug */,
+				01DD43A31F823BA30096760F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01DD436D1F823BA30096760F /* Project object */;
+}

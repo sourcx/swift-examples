@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018D4D701F8A7C10009E0C8D /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018D4D6F1F8A7C10009E0C8D /* PreferencesViewController.swift */; };
 		01DD43791F823BA30096760F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DD43781F823BA30096760F /* AppDelegate.swift */; };
 		01DD437B1F823BA30096760F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DD437A1F823BA30096760F /* ViewController.swift */; };
 		01DD437D1F823BA30096760F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DD437C1F823BA30096760F /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018D4D6F1F8A7C10009E0C8D /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
 		01DD43751F823BA30096760F /* hoots-timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hoots-timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DD43781F823BA30096760F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01DD437A1F823BA30096760F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				01DD43781F823BA30096760F /* AppDelegate.swift */,
 				01DD437A1F823BA30096760F /* ViewController.swift */,
+				018D4D6F1F8A7C10009E0C8D /* PreferencesViewController.swift */,
 				01DD437C1F823BA30096760F /* Assets.xcassets */,
 				01DD437E1F823BA30096760F /* Main.storyboard */,
 				01DD43811F823BA30096760F /* Info.plist */,
@@ -259,6 +262,7 @@
 			files = (
 				01DD437B1F823BA30096760F /* ViewController.swift in Sources */,
 				01DD43791F823BA30096760F /* AppDelegate.swift in Sources */,
+				018D4D701F8A7C10009E0C8D /* PreferencesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

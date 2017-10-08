@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		018D4D701F8A7C10009E0C8D /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018D4D6F1F8A7C10009E0C8D /* PreferencesViewController.swift */; };
+		018D4D781F8A8598009E0C8D /* HootsTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018D4D771F8A8598009E0C8D /* HootsTimer.swift */; };
 		01DD43791F823BA30096760F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DD43781F823BA30096760F /* AppDelegate.swift */; };
 		01DD437B1F823BA30096760F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DD437A1F823BA30096760F /* ViewController.swift */; };
 		01DD437D1F823BA30096760F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DD437C1F823BA30096760F /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		018D4D6F1F8A7C10009E0C8D /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		018D4D771F8A8598009E0C8D /* HootsTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HootsTimer.swift; sourceTree = "<group>"; };
 		01DD43751F823BA30096760F /* hoots-timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hoots-timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DD43781F823BA30096760F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01DD437A1F823BA30096760F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,12 +77,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		018D4D711F8A8439009E0C8D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01DD437A1F823BA30096760F /* ViewController.swift */,
+				018D4D6F1F8A7C10009E0C8D /* PreferencesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		018D4D721F8A845B009E0C8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				018D4D771F8A8598009E0C8D /* HootsTimer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		01DD436C1F823BA30096760F = {
 			isa = PBXGroup;
 			children = (
 				01DD43771F823BA30096760F /* hoots-timer */,
-				01DD438A1F823BA30096760F /* hoots-timerTests */,
-				01DD43951F823BA30096760F /* hoots-timerUITests */,
+				01DD438A1F823BA30096760F /* HootsTimerTests */,
+				01DD43951F823BA30096760F /* HootsTimerUITests */,
 				01DD43761F823BA30096760F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,32 +118,32 @@
 			isa = PBXGroup;
 			children = (
 				01DD43781F823BA30096760F /* AppDelegate.swift */,
-				01DD437A1F823BA30096760F /* ViewController.swift */,
-				018D4D6F1F8A7C10009E0C8D /* PreferencesViewController.swift */,
-				01DD437C1F823BA30096760F /* Assets.xcassets */,
-				01DD437E1F823BA30096760F /* Main.storyboard */,
 				01DD43811F823BA30096760F /* Info.plist */,
 				01DD43821F823BA30096760F /* hoots_timer.entitlements */,
+				018D4D711F8A8439009E0C8D /* Controllers */,
+				018D4D721F8A845B009E0C8D /* Models */,
+				01DD437C1F823BA30096760F /* Assets.xcassets */,
+				01DD437E1F823BA30096760F /* Main.storyboard */,
 			);
 			path = "hoots-timer";
 			sourceTree = "<group>";
 		};
-		01DD438A1F823BA30096760F /* hoots-timerTests */ = {
+		01DD438A1F823BA30096760F /* HootsTimerTests */ = {
 			isa = PBXGroup;
 			children = (
 				01DD438B1F823BA30096760F /* hoots_timerTests.swift */,
 				01DD438D1F823BA30096760F /* Info.plist */,
 			);
-			path = "hoots-timerTests";
+			path = HootsTimerTests;
 			sourceTree = "<group>";
 		};
-		01DD43951F823BA30096760F /* hoots-timerUITests */ = {
+		01DD43951F823BA30096760F /* HootsTimerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				01DD43961F823BA30096760F /* hoots_timerUITests.swift */,
 				01DD43981F823BA30096760F /* Info.plist */,
 			);
-			path = "hoots-timerUITests";
+			path = HootsTimerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01DD437B1F823BA30096760F /* ViewController.swift in Sources */,
+				018D4D781F8A8598009E0C8D /* HootsTimer.swift in Sources */,
 				01DD43791F823BA30096760F /* AppDelegate.swift in Sources */,
 				018D4D701F8A7C10009E0C8D /* PreferencesViewController.swift in Sources */,
 			);
